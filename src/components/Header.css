@@ -1,0 +1,241 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  background-color: #00abfa;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  /* padding: 10px 10px 10px 10px; */
+  color: white;
+}
+
+.container2 > div {
+  padding: 16px 0;
+}
+
+.arrow {
+  color: red;
+}
+
+.hero {
+  background-color: rgb(45, 45, 100);
+  padding: 40px 12px 40px 12px;
+  display: flex;
+  color: white;
+  text-align: start;
+}
+
+.section1 {
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+
+.text-header {
+  font-size: xx-large;
+}
+
+.enquire-btn {
+  background-color: #00abfa;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border: 0;
+}
+
+.btn {
+  margin-top: 30px;
+}
+
+.overview-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 10px 10px;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.title1 {
+  font-weight: bolder;
+  font-size: x-large;
+  margin-top: 25px;
+}
+
+.description {
+  margin-top: 25px;
+}
+
+.doctors-description {
+  margin-top: 10px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.word {
+  color: #388de2!important;
+}
+
+.content-container {
+  display: flex;
+  gap: 30px;
+  margin: 24px 0;
+  padding-bottom: 24px;
+  border-bottom: 1px dashed #388de2;
+}
+
+.box {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
+.icon > img {
+  height: 80px;
+  width: 80px;
+}
+
+.text-section {
+  display: block;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.label {
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 8px;
+}
+
+.label-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.search-bar {
+  background-color: #097aeb;
+  color: white;
+  padding: 16px;
+  border: none;
+  font-size: 16px;
+}
+
+.search-bar::placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.pb-16 {
+  padding-bottom: 16px;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.card_img {
+    margin-top: 20px;
+    height: 137px;
+    width: 310px;
+}
+
+.card-image1 {
+  background-color: pink;
+  height: 193px;
+    width: 310px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 22px;
+}
+
+.card {
+    padding: 10px;
+    background: white;
+    box-shadow: 0 0 3px 1px grey;
+}
+
+.title-patient {
+  margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.doctors-title {
+  font-weight: bolder;
+  font-size:larger;
+  color: rgb(244, 78, 78);
+  text-align: center;
+}
+
+.hospital-name {
+  text-align: center;
+}
+
+.explore_word {
+  color: rgb(235, 62, 62);
+  text-align: center;
+}
+
+.footer-container {
+   background-color: #388de2;
+   margin-top: 30px;
+}
+
+.healthcare_title {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.healthcare {
+  margin-top: 10px;
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+  
+}
+
+.healthcare_btn {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.touch-btn {
+  background-color: #21759c;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border: 0;
+}
+
